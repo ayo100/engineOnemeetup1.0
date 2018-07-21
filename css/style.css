@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+body, * {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.nav-wrapper.container {
+  min-width: 95%;
+}
+
+nav a.brand-logo {
+  color: rgb(33, 150, 243);
+}
+
+nav li a {
+  color: grey;
+}
+
+nav a.brand-logo {
+  font-size: 1.5rem;
+}
+
+nav ul.left {
+  margin-left: 15rem
+}
+
+nav ul.left li a {
+  font-size: 1rem;
+}
+
+section.banner {
+  padding: 12vh 5vw;
+}
+
+section.banner h1 {
+  font-size: 3.5rem;
+  margin-bottom: 15vh;
+}
+
+img.bg {
+  width: 100%;
+  filter: brightness(.8);
+  margin: 15vh 0 5vh;
+  height: 70vh;
+  object-fit: cover;
+  object-position: 0 -5rem;
+}
+
+.section {
+  padding: 3rem 2rem 4rem;
+}
+
+#speakers h4, #agenda h4 {
+  margin-bottom: 8vh;
+}
+
+.label {
+  padding: 0.2rem 1rem;
+}
+
+.speaker p.flow-text {
+  margin-bottom: -1rem;
+}
+
+.speaker img {
+  border-radius: 50%;
+  width: 15rem;
+  height: 15rem;
+  object-fit: cover;
+  object-position: 0;
+}
+
+.text-justify {
+  text-align: justify;
+}
