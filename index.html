@@ -1,252 +1,337 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>EngineOne Lagos Meetup</title>
-    <link rel="stylesheet prefetch" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
-    <link href="css/style.css" rel="stylesheet" type="text/css" />
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-  </head>
-  <body>
-    <header>
-      <div class="navbar-fixed">
-        <nav class="white">
-          <div class="nav-wrapper container">
-            <a class="brand-logo left">EngineOne Meetup</a>
-            <ul class="left hide-on-small-only">
-              <li><a href="#speakers">Speakers</a></li>
-              <li><a href="#agenda">Agenda</a></li>
-              <li><a href="#attendees">Attendees</a></li>
-            </ul>
-            <ul class="right">
-              <li><a href="#about">About</a></li>
-            </ul>
-          </div>
-        </nav>
-      </div>
-      <section class="banner">
-        <h1 class="blue-text center-align">Version Control for The Future</h1>
-        <p class="flow-text">
-          <span class="left"><b>Date:</b> Saturday, July 21, 2018</span>
-          <span class="right"><b>Venue:</b> Hotels.ng - 3 Birrel Ave, Yaba Lagos</span>
-        </p>
-      </section>
-      <img src="https://images.unsplash.com/photo-1520085601670-ee14aa5fa3e8?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=cdc4d332eab7ae54a6449ef4918730f5&auto=format&fit=crop&w=1350&q=80" class="bg" />
-    </header>
-    <section id="speakers" class="section row center">
-      <h4><span class="blue white-text label"> Speakers </span></h4>
-      <div class="container">
-        <div class="speaker col s12 m6">
-          <img src="https://getting-started-with-version-control--jalasem.repl.co/images/jatto.jpeg">
-          <p class="flow-text">Jatto Abdulqahhar</p>
-          <p>Software Developer <a href="https://andela.com">@Andela</a></p>
-        </div>
-        <div class="speaker col s12 m6">
-          <img src="https://getting-started-with-version-control--jalasem.repl.co/images/jalasem.jpeg">
-          <p class="flow-text">Ajala Abdulsamii</p>
-          <p>Full-Stack Developer and Expert Mentor <a href="https://codementor.io/jalasem">@Codementor.io</a></p>
-        </div>
-      </div>
-    </section>
-    <section id="agenda" class="section grey lighten-4">
-      <div class="center-align">
-        <h4><span class="label blue white-text">Agenda</span></h4>
-        <div class="card-panel hoverable">
-          <table class="highlight responsive-table">
-            <thead class="grey lighten-3">
-              <tr>
-                  <th>Time</th>
-                  <th>Duration</th>
-                  <th>Activity</th>
-                  <th>Speakers / Session Co-ordinators</th>
-              </tr>
-            </thead>
 
-            <tbody>
-              <tr>
-                <td>10:45 - 11:00AM</td>
-                <td>15 mins</td>
-                <td>Arrival / Registration</td>
-                <td></td>
-              </tr>
-              <tr>
-                <td>11:00 - 11:10AM</td>
-                <td>10 mins</td>
-                <td>EngineOne: Who are we and what do we do?</td>
-                <td>Chioma James <br> Local Leader</td>
-              </tr>
-              <tr>
-                <td>11:10 - 11:40AM</td>
-                <td>30 mins</td>
-                <td>Version Control for The Future: General Introduction and Documentation</td>
-                <td>Aminujatto Ademola <br> Software Developer @Andela <br> Twitter: https://twitter.com/jattorize</td>
-              </tr>
-              <tr>
-                <td>11:40 - 12:10PM</td>
-                <td>30 mins</td>
-                <td>Get Started with Version Control</td>
-                <td>Ajala Abdulsamii <br> Full-Stack Developer &amp; Expert Mentor <a href="https://codemnetor.io/jalasem">@Codementor.io</a> <br> Twitter: https://twitter.com/ajalaabdulsamii</td>
-              </tr>
-              <tr>
-                <td>12:10 - 01:00PM</td>
-                <td>50 mins</td>
-                <td>Hand on Break out session: Beginners and Intermediate</td>
-                <td></td>
-              </tr>
-              <tr>
-                <td>1:00 - 1:20PM</td>
-                <td>20 mins</td>
-                <td>General Question and answer session</td>
-                <td>Everyone</td>
-              </tr>
-              <tr>
-                <td>1:20 - 1:30PM</td>
-                <td>10 mins</td>
-                <td>Vote of thanks / Group Photos / Light Refreshments</td>
-                <td>Everyone</td>
-              </tr>
-            </tbody>
-          </table>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>EngineOne Lagos Meetup</title>
+  <link rel="stylesheet prefetch" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+  <link href="css/style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+  <header>
+    <div class="navbar-fixed">
+      <nav class="white">
+        <div class="nav-wrapper container">
+          <a class="brand-logo left">EngineOne Meetup</a>
+          <ul class="left hide-on-small-only">
+            <li>
+              <a href="#speakers">Speakers</a>
+            </li>
+            <li>
+              <a href="#agenda">Agenda</a>
+            </li>
+            <li>
+              <a href="#attendees">Attendees</a>
+            </li>
+          </ul>
+          <ul class="right">
+            <li>
+              <a href="#about">About</a>
+            </li>
+          </ul>
         </div>
-      </div>
+      </nav>
+    </div>
+    <section class="banner">
+      <h1 class="blue-text center-align">Version Control for The Future</h1>
+      <p class="flow-text">
+        <span class="left">
+          <b>Date:</b> Saturday, July 21, 2018</span>
+        <span class="right">
+          <b>Venue:</b> Hotels.ng - 3 Birrel Ave, Yaba Lagos</span>
+      </p>
     </section>
-    <section id="attendees" class="section container">
-      <h4><span class="label blue white-text">Attendees</span></h4>
-      <table class="highlight responsive-table">
-        <thead class="grey lighten-3">
-          <tr>
-            <th>Name</th>
-            <th>Job Title / Occupation</th>
-            <th>Place of Work / School</th>
-            <th>Github Username</th>
-          </tr>
-        </thead>
-        
-        <tbody>
-          <tr>
-            <td>Ajala Abdulsamii</td>
-            <td>Full-Stack Dev & Expert Mentor</td>
-            <td><a href="https://codementor.io/jalasem">Codementor.io/jalasem</a></td>
-            <td><a href="https://github.com/jalasem">jalasem</a></td>
-          </tr>
-           <tr>
-            <td>Salome Oluwalolope</td>
-            <td>Student & frontend web developer</td>
-            <td><a href="https://unilag.edu.ng">University of Lagos</a></td>
-            <td><a href="https://github.com/theimy">Theimy</a></td>
-          </tr>
-          <tr>
-              <td>Stephen C. O. Ugbana</td>
-              <td>Beginner Programmer</td>
-              <td><a href="https://codementor.io/jalasem">Codementor.io/jalasem</a></td>
-              <td><a href="https://github.com/jalasem">jalasem</a></td>
+    <img src="https://images.unsplash.com/photo-1520085601670-ee14aa5fa3e8?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=cdc4d332eab7ae54a6449ef4918730f5&auto=format&fit=crop&w=1350&q=80"
+      class="bg" />
+  </header>
+  <section id="speakers" class="section row center">
+    <h4>
+      <span class="blue white-text label"> Speakers </span>
+    </h4>
+    <div class="container">
+      <div class="speaker col s12 m6">
+        <img src="https://getting-started-with-version-control--jalasem.repl.co/images/jatto.jpeg">
+        <p class="flow-text">Jatto Abdulqahhar</p>
+        <p>Software Developer
+          <a href="https://andela.com">@Andela</a>
+        </p>
+      </div>
+      <div class="speaker col s12 m6">
+        <img src="https://getting-started-with-version-control--jalasem.repl.co/images/jalasem.jpeg">
+        <p class="flow-text">Ajala Abdulsamii</p>
+        <p>Full-Stack Developer and Expert Mentor
+          <a href="https://codementor.io/jalasem">@Codementor.io</a>
+        </p>
+      </div>
+    </div>
+  </section>
+  <section id="agenda" class="section grey lighten-4">
+    <div class="center-align">
+      <h4>
+        <span class="label blue white-text">Agenda</span>
+      </h4>
+      <div class="card-panel hoverable">
+        <table class="highlight responsive-table">
+          <thead class="grey lighten-3">
+            <tr>
+              <th>Time</th>
+              <th>Duration</th>
+              <th>Activity</th>
+              <th>Speakers / Session Co-ordinators</th>
             </tr>
-          <tr>
-              <td>Bamidele Joshua</td>
-              <td>Software Developer</td>
-              <td><a href="https://facebook.com/joshponping">Facebook Profile</a></td>
-              <td><a href="https://github.com/joshponping">joshponping</a></td>
-            <tr/>
-          </tr>
-          <tr>
-            <td>Samuel Ocran</td>
-            <td>Admin Executive</td>
-            <td><a href="www.wakanow.com">Wakanow.com</a></td>
-            <td><a href="https://github.com/ocranbillions">ocranbillions</a></td>
-          </tr>
-          <tr>
-          	<td>Akintade Britto</td>
-            <td>Python/Odoo Dev</td>
-            <td><a href="#">Bla bla bla</a></td>
-            <td><a href="https://github.com/ak-logic">ak-logic</a></td>
-          </tr>
-          <tr>
-            <td>Sunday Amos Obinna</td>
-            <td>Software Developer</td>
-            <td><a href="https://about.me/SundayAmosObi">@SundayAmosObi</a></td>
-            <td><a href="https://github.com/SundayAmosObi">SundayAmosObi</a></td>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td>10:45 - 11:00AM</td>
+              <td>15 mins</td>
+              <td>Arrival / Registration</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>11:00 - 11:10AM</td>
+              <td>10 mins</td>
+              <td>EngineOne: Who are we and what do we do?</td>
+              <td>Chioma James
+                <br> Local Leader</td>
+            </tr>
+            <tr>
+              <td>11:10 - 11:40AM</td>
+              <td>30 mins</td>
+              <td>Version Control for The Future: General Introduction and Documentation</td>
+              <td>Aminujatto Ademola
+                <br> Software Developer @Andela
+                <br> Twitter: https://twitter.com/jattorize</td>
+            </tr>
+            <tr>
+              <td>11:40 - 12:10PM</td>
+              <td>30 mins</td>
+              <td>Get Started with Version Control</td>
+              <td>Ajala Abdulsamii
+                <br> Full-Stack Developer &amp; Expert Mentor
+                <a href="https://codemnetor.io/jalasem">@Codementor.io</a>
+                <br> Twitter: https://twitter.com/ajalaabdulsamii</td>
+            </tr>
+            <tr>
+              <td>12:10 - 01:00PM</td>
+              <td>50 mins</td>
+              <td>Hand on Break out session: Beginners and Intermediate</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>1:00 - 1:20PM</td>
+              <td>20 mins</td>
+              <td>General Question and answer session</td>
+              <td>Everyone</td>
+            </tr>
+            <tr>
+              <td>1:20 - 1:30PM</td>
+              <td>10 mins</td>
+              <td>Vote of thanks / Group Photos / Light Refreshments</td>
+              <td>Everyone</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+  <section id="attendees" class="section container">
+    <h4>
+      <span class="label blue white-text">Attendees</span>
+    </h4>
+    <table class="highlight responsive-table">
+      <thead class="grey lighten-3">
+        <tr>
+          <th>Name</th>
+          <th>Job Title / Occupation</th>
+          <th>Place of Work / School</th>
+          <th>Github Username</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>Ajala Abdulsamii</td>
+          <td>Full-Stack Dev &amp; Expert Mentor</td>
+          <td>
+            <a href="https://codementor.io/jalasem">Codementor.io/jalasem</a>
+          </td>
+          <td>
+            <a href="https://github.com/jalasem">jalasem</a>
+          </td>
+        </tr>
+        <tr>
+          <td>Salome Oluwalolope</td>
+          <td>Student & frontend web developer</td>
+          <td>
+            <a href="https://unilag.edu.ng">University of Lagos</a>
+          </td>
+          <td>
+            <a href="https://github.com/theimy">Theimy</a>
+          </td>
+        </tr>
+        <tr>
+          <td>Stephen C. O. Ugbana</td>
+          <td>Beginner Programmer</td>
+          <td>
+            <a href="https://codementor.io/jalasem">Codementor.io/jalasem</a>
+          </td>
+          <td>
+            <a href="https://github.com/jalasem">jalasem</a>
+          </td>
+        </tr>
+        <tr>
+          <td>Bamidele Joshua</td>
+          <td>Software Developer</td>
+          <td>
+            <a href="https://facebook.com/joshponping">Facebook Profile</a>
+          </td>
+          <td>
+            <a href="https://github.com/joshponping">joshponping</a>
+          </td>
+          <tr/>
+        </tr>
+        <tr>
+          <td>Samuel Ocran</td>
+          <td>Admin Executive</td>
+          <td>
+            <a href="www.wakanow.com">Wakanow.com</a>
+          </td>
+          <td>
+            <a href="https://github.com/ocranbillions">ocranbillions</a>
+          </td>
+        </tr>
+        <tr>
+          <td>Akintade Britto</td>
+          <td>Python/Odoo Dev</td>
+          <td>
+            <a href="#">Bla bla bla</a>
+          </td>
+          <td>
+            <a href="https://github.com/ak-logic">ak-logic</a>
+          </td>
+        </tr>
+        <tr>
+          <td>Sunday Amos Obinna</td>
+          <td>Software Developer</td>
+          <td>
+            <a href="https://about.me/SundayAmosObi">@SundayAmosObi</a>
+          </td>
+          <td>
+            <a href="https://github.com/SundayAmosObi">SundayAmosObi</a>
+          </td>
         </tr>
         <tr>
           <td> Oliha Osayamen</td>
           <td> Business Analyst, Upcoming dev and tech enthusiast</td>
-          <td> <a href="https://github.com/el-Israel"></td>
-        </tr>
-	      <tr>
-            <td>Britto Temitayo</td>
-            <td>I am an attendee</td>
-            <td><a href="httpsh">SOmewhere Inc</a></td>
-            <td><a href="https://github.com/darkside-rhino">darkside-rhino</a></td>
-	        </tr>
-          <tr>
-              <td>Akinloye Akinkunmi</td>
-            <td>Website developer, Content Writer &amp; Social Media Marketer</td>
-            <td>Akinz Technologies</td>
-            <td><a href="https://github.com/Akinztech">Akinztech</a></td>
-          </tr>
-          <tr>
-            <td>Okpara Emmanuel</td>
-            <td>Web Developer</td>
-            <td></td>
-            <td></td>
-          </tr>
-          <tr>
-              <td>Commander Lovelyn Onome</td>
-              <td>Sales Executive</td>
-              <td>Phenard Nigeria Limited</td>
-              <td><a href="https://github.com/Onome03">Onome03</a></td>
-          </tr>
-          <tr>
-            <td>Okpara Emmanuel</th>
-            <td>Web Developer</th>
-            <td>I am an atendee</td>
-            <td><a href="https://github.com/Okpara Emmanuel">Okpara Emmanuel</a></td>
+          <td>
+            <a href="https://github.com/el-Israel">
+          </td>
         </tr>
         <tr>
-            <td>peters cynthia</td>
-            <td>web/mobile developer</td>
-            <td><a href="">cyn</a></td>
-            <td><a href="https://github.com/cynthia994/">cynthia994</a></td>
+          <td>Britto Temitayo</td>
+          <td>I am an attendee</td>
+          <td>
+            <a href="httpsh">SOmewhere Inc</a>
+          </td>
+          <td>
+            <a href="https://github.com/darkside-rhino">darkside-rhino</a>
+          </td>
         </tr>
-          <tr>
-            <td>Abudud Abiodun Sulaiman</td>
-            <td>I am an attendee</td>
-            <td>somewhere inc</td>
-            <td><a href="https://github.com/sulenchy">sulenchy</a></td>
-          </tr>
-          <tr>
-            <td>Olurombi Anuoluwapo</td>
+        <tr>
+          <td>Akinloye Akinkunmi</td>
+          <td>Website developer, Content Writer &amp; Social Media Marketer</td>
+          <td>Akinz Technologies</td>
+          <td>
+            <a href="https://github.com/Akinztech">Akinztech</a>
+          </td>
+        </tr>
+        <tr>
+          <td>Okpara Emmanuel</td>
+          <td>Web Developer</td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Commander Lovelyn Onome</td>
+          <td>Sales Executive</td>
+          <td>Phenard Nigeria Limited</td>
+          <td>
+            <a href="https://github.com/Onome03">Onome03</a>
+          </td>
+        </tr>
+        <tr>
+          <td>Okpara Emmanuel</th>
+            <td>Web Developer</th>
+              <td>I am an atendee</td>
+              <td>
+                <a href="https://github.com/Okpara Emmanuel">Okpara Emmanuel</a>
+              </td>
+        </tr>
+        <tr>
+          <td>peters cynthia</td>
+          <td>web/mobile developer</td>
+          <td>
+            <a href="">cyn</a>
+          </td>
+          <td>
+            <a href="https://github.com/cynthia994/">cynthia994</a>
+          </td>
+        </tr>
+        <tr>
+          <td>Abudud Abiodun Sulaiman</td>
+          <td>I am an attendee</td>
+          <td>somewhere inc</td>
+          <td>
+            <a href="https://github.com/sulenchy">sulenchy</a>
+          </td>
+        </tr>
+        <tr>
+          <td>Olurombi Anuoluwapo</td>
           <td>Student</td>
-          <td><a href="https://unilag.edu.ng">UNILAG</a></td>
-          <td><a href="https://github.com/Hannah-28">Hannah-28</a></td>
-          </tr>
-        </tbody>
-      </table>
-    </section>
+          <td>
+            <a href="https://unilag.edu.ng">UNILAG</a>
+          </td>
+          <td>
+            <a href="https://github.com/Hannah-28">Hannah-28</a>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
 
-    <section id="about" class="section container">
-      <h4><span class="label blue white-text">About EngineOne</span></h4>
-      <p class="text-justify">
-        Duo erant iusto omnesque ne, esse solet maiestatis ius ea. Mel doming officiis ut. Utroque offendit praesent eu nec. Eos et fabulas vivendo, eu zril aperiri fuisset sea. Erat elaboraret qui an, meliore deterruisset no quo, ad mea decore ridens necessitatibus. Ad nam quidam pertinax tractatos. Ad eum tale audiam, feugiat liberavisse duo et.
-
-        Usu dicant pertinax no, nam ea porro scripserit. Doming audiam erroribus cu sit. An graece appareat vis. Id duo alterum consequat. Feugiat pertinacia te usu, omnis harum simul ne eum. Autem viris his ad.
-      </p>
-    </section>
-    <footer class="page-footer blue">
-      <div class="container">
-        <div class="row">
-          <div class="col s12">
-            <h5 class="white-text">About Page</h5>
-            <p class="grey-text text-lighten-4">This page was built by everyone at the EngineOne Lagos Maiden Meetup to teach version control and serve as guide for attendees on colaboration.</p>
-          </div>
+  <section id="about" class="section container">
+    <h4>
+      <span class="label blue white-text">About EngineOne</span>
+    </h4>
+    <p class="text-justify">
+      Duo erant iusto omnesque ne, esse solet maiestatis ius ea. Mel doming officiis ut. Utroque offendit praesent eu nec. Eos
+      et fabulas vivendo, eu zril aperiri fuisset sea. Erat elaboraret qui an, meliore deterruisset no quo, ad mea decore
+      ridens necessitatibus. Ad nam quidam pertinax tractatos. Ad eum tale audiam, feugiat liberavisse duo et. Usu dicant
+      pertinax no, nam ea porro scripserit. Doming audiam erroribus cu sit. An graece appareat vis. Id duo alterum consequat.
+      Feugiat pertinacia te usu, omnis harum simul ne eum. Autem viris his ad.
+    </p>
+  </section>
+  <footer class="page-footer blue">
+    <div class="container">
+      <div class="row">
+        <div class="col s12">
+          <h5 class="white-text">About Page</h5>
+          <p class="grey-text text-lighten-4">This page was built by everyone at the EngineOne Lagos Maiden Meetup to teach version control and serve as guide
+            for attendees on colaboration.</p>
         </div>
       </div>
-      <div class="footer-copyright">
-        <div class="container">
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
         Made with love by everyone at EngineOne Lagos Meetup 1.0
         <a target="_blank" class="grey-text text-lighten-4 right" href="https://github.com/jalasem">Github</a>
-        </div>
       </div>
-    </footer>
-  </body>
+    </div>
+  </footer>
+</body>
+
 </html>
